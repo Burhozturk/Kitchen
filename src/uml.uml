@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="77.125" y="0.0">KitchenUtensilInterface</node>
+    <node x="189.0" y="556.0">KitchenUtensilsChildClass</node>
+    <node x="15.125" y="123.0">KitchenUtensils</node>
+    <node x="0.0" y="556.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="KitchenUtensilsChildClass" target="KitchenUtensils">
+      <point x="54.0" y="-25.5" />
+      <point x="351.0" y="531.0" />
+      <point x="312.625" y="531.0" />
+      <point x="127.5" y="191.5" />
+    </edge>
+    <edge source="Main" target="KitchenUtensils">
+      <point x="-42.25" y="-25.5" />
+      <point x="42.25" y="531.0" />
+      <point x="57.625" y="531.0" />
+      <point x="-127.5" y="191.5" />
+    </edge>
+    <edge source="KitchenUtensils" target="KitchenUtensilInterface">
+      <point x="0.0" y="-191.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="13.0" />
+  <SelectedNodes>
+    <node>KitchenUtensilInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
